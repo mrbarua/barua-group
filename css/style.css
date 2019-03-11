@@ -240,8 +240,9 @@ p {
   display: flex;
 }
 
-#contact .map .contact-form {
-  float: 1;
+#contact .map,
+#contact .contact-form {
+  flex: 1;
 }
 
 #contact .contact-form .form-group {
