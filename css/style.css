@@ -45,12 +45,15 @@ p {
 
 .m-heading {
   font-size: 2rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
   line-height: 1.1rem;
+  text-transform: uppercase;
 }
 
 .lead {
   font-size: 1.3rem;
+  padding-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -143,7 +146,28 @@ p {
 
   /* overlay  */
   position: absolute;
-  top: 60px;
+  top: 57px;
   left: 0;
+  right: 0;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*section :what we do */
+#what .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#what .items .item {
+  float: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#what .items .item i {
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
